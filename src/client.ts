@@ -14,6 +14,6 @@ export class FrontClient {
 
     this.conversations = new ConversationsAPI(config);
     this.accounts = new AccountsAPI(config);
-    // Add other resources here (e.g., this.messages = new MessagesAPI(config))
+    // Add other resources here
   }
 }

@@ -1,14 +1,37 @@
 {
-  "name": "frontapp-api",
+  "name": "frontapp-api-sdk",
   "version": "0.1.0",
-  "description": "Unofficial SDK for interacting with the Front API",
+  "description": "A simple and configurable client for Front's Core API, with built-in support for rate limiting, pagination, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev:test": "ts-node test.ts",
+    "prepare": "npm run build"
   },
-  "keywords": ["front", "frontapp", "api", "sdk", "client", "unofficial"],
-  "author": "Your Name",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atjames/frontapp-api-sdk.git"
+  },
+  "keywords": [
+    "front",
+    "frontapp",
+    "api",
+    "sdk",
+    "typescript",
+    "client",
+    "rest",
+    "unofficial"
+  ],
+  "author": "Andy James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atjames/frontapp-api-sdk/issues"
+  },
+  "homepage": "https://github.com/atjames/frontapp-api-sdk#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.0"
+  }
 }

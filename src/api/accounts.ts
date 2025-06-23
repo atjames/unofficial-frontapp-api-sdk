@@ -1,5 +1,6 @@
 import { createRequest, Config } from '../request';
-import { ListAccountsParams, PaginatedResponse, CreateAccountPayload } from '../types';
+import { PaginatedResponse} from '../types';
+import { ListAccountsParams, CreateAccountPayload } from '../types/Accounts/Account.types';
 
 export class AccountsAPI {
   private request: ReturnType<typeof createRequest>;
