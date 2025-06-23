@@ -1,4 +1,4 @@
-# frontapp-api-sdk
+# Front Core API SDK
 
 A simple, configurable SDK for interacting with [Front's Core API](https://dev.frontapp.com/reference/introduction). This package provides convenient wrappers for common API methods, including support for pagination, rate limiting, and typed inputs/outputs.
 
