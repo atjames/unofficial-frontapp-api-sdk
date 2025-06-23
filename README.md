@@ -2,9 +2,11 @@
 
 Unofficial SDK for Front's REST API
 
-> ⚠️ Not affiliated with Front. Use at your own risk.
+> ⚠️ This package is not affiliated with or maintained by Front. Use at your own risk.
 
-## Install
+## Overview
 
-```bash
-npm install frontapp-api
+This is a TypeScript-based SDK for interacting with [Front's Core API](https://dev.frontapp.com/reference/introduction).
+
+🚧 **This project is a work in progress.**  
+Once complete, it will be published to [npm](https://www.npmjs.com/) for easy installation and use:
