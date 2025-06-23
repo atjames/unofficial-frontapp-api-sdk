@@ -1,0 +1,14 @@
+{
+  "name": "frontapp-api",
+  "version": "0.1.0",
+  "description": "Unofficial SDK for interacting with the Front API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["front", "frontapp", "api", "sdk", "client", "unofficial"],
+  "author": "Your Name",
+  "license": "MIT"
+}
