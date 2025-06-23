@@ -1,20 +1,22 @@
 # Front Core API SDK
 
-A simple, configurable SDK for interacting with [Front's Core API](https://dev.frontapp.com/reference/introduction). This package provides convenient wrappers for common API methods, including support for pagination, rate limiting, and typed inputs/outputs.
+> ⚠️ **Unofficial SDK** — This package is not affiliated with Front. Use at your own risk, and please do not contact Front's Support team with questions. Submit a GitHub issue instead.  
+> 🚧 **Work in progress** — More modules and features will be added over time.
 
-Use it in your app to call any of Front’s REST API endpoints with a clean, structured interface. More modules will be added over time.
-
-> ⚠️ This package is **unofficial** and not affiliated with Front. Use at your own risk.
+A simple, configurable SDK for interacting with [Front's Core API](https://dev.frontapp.com/reference/introduction). This package provides convenient wrappers around common API methods across all resources. It also includes built-in support for pagination and rate limit handling.
 
 ---
 
 ## Requirements
 
-This SDK is written in TypeScript and takes advantage of modern language features, but it can be used in both TypeScript and JavaScript projects.
+- Node.js v18 or higher (for native `fetch` support)
+- Works in both TypeScript and JavaScript projects
 
 ---
 
 ## Install
+
+_Not yet published_
 
 ```bash
 npm install frontapp-api-sdk
