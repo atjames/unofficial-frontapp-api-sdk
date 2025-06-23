@@ -16,7 +16,7 @@ A simple, configurable SDK for interacting with [Front's Core API](https://dev.f
 
 ## Install
 
-_Not yet published_
+>⚠️ **This package is not yet published to npm. It is under active development and not ready for use.** ⚠️
 
 ```bash
 npm install frontapp-api-sdk
