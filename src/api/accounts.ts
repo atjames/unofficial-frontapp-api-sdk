@@ -42,21 +42,26 @@ export class AccountsAPI {
    * @returns A combined array of all account objects.
    */
   async listAll(): Promise<any[]> {
-    let allAccounts: any[] = [];
-    let pageToken: string | undefined = undefined;
+  const allAccounts: any[] = [];
+  let pageToken: string | undefined = undefined;
 
-    do {
-      const response = await this.list({
-        limit: 100,
-        page_token: pageToken,
-      });
+  do {
+    const params: ListAccountsParams = {
+      limit: 100,
+      ...(pageToken ? { page_token: pageToken } : {}),
+    };
 
-      allAccounts.push(...response._results);
-      pageToken = response._pagination?.next;
-    } while (pageToken);
+    console.log('Requesting with params:', params);
 
-    return allAccounts;
-  }
+    const response = await this.list(params);
+
+    allAccounts.push(...response._results);
+
+    pageToken = response._pagination?.next; // ✅ This is the correct token to use
+  } while (pageToken);
+
+  return allAccounts;
+}
    /**
    * Create a new account.
    *

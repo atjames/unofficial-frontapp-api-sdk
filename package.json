@@ -4,7 +4,9 @@
   "description": "A simple and configurable client for Front's Core API, with built-in support for rate limiting, pagination, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev:test": "ts-node test.ts",
@@ -31,7 +33,10 @@
   },
   "homepage": "https://github.com/atjames/frontapp-api-sdk#readme",
   "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.0"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
   }
 }
