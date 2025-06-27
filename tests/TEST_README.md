@@ -26,6 +26,7 @@ tests/
 1. **Environment Setup**: Create a `.env` file in the root directory:
    ```
    FRONT_API_TOKEN=your_front_api_token_here
+   
    ```
 
 2. **Install Dependencies**:
