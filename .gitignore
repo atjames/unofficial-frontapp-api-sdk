@@ -13,6 +13,3 @@ dist/
 
 # TypeScript
 *.tsbuildinfo
-
-# Test file
-test.ts

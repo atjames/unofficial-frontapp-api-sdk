@@ -1,0 +1,54 @@
+# Test files and directories
+tests/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+
+# Test configuration
+.mocharc.json
+TEST_README.md
+
+# Development files
+src/
+tsconfig.json
+.gitignore
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts that shouldn't be published
+*.tsbuildinfo
+
+# Git
+.git/
+.gitignore 
