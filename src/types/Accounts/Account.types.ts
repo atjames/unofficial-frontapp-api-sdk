@@ -5,7 +5,7 @@ export type ListAccountsParams = {
   sort_order?: 'asc' | 'desc';
 };
 
-export type CreateAccountPayload = {
+export type CreateAccountParams = {
   name: string;
   description?: string;
   custom_fields?: Record<string, any>;
